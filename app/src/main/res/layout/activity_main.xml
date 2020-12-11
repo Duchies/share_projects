@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3ECEC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/demo_pik_two"
+        >
+
+    </ImageView>
+
+
+    <Button
+
+        android:id="@+id/current_location"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+
+        android:background="@drawable/your_current_location_bg"
+        android:drawableLeft="@drawable/my_location_24"
+
+        android:drawablePadding="16dp"
+
+        android:text="   Your current location "
+
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:paddingStart="16dp"
+        android:paddingLeft="1dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="textStart"
+
+        />
+
+    <EditText
+
+        android:id="@+id/serrch_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/some_other_location_bg"
+        android:drawableStart="@drawable/ic_search_24"
+        android:drawablePadding="16dp"
+        android:hint="Some other location"
+        android:paddingStart="16dp"
+        android:paddingLeft="12dp"
+        android:focusedByDefault="false"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="100dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/demopik_one">
+
+    </ImageView>
+
+
+</LinearLayout>
