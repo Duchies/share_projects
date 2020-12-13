@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F3ECEC"
+
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,7 +16,7 @@
 
         android:layout_height="250dp"
         android:scaleType="fitXY"
-        android:src="@drawable/demo_pik_two"
+        android:src="@drawable/serveondoorupsidephotot"
         >
 
     </ImageView>
@@ -33,7 +34,7 @@
 
         android:background="@drawable/your_current_location_bg"
         android:drawableLeft="@drawable/my_location_24"
-
+        android:backgroundTint="@android:color/holo_red_light"
         android:drawablePadding="16dp"
 
         android:text="   Your current location "
@@ -61,6 +62,7 @@
         android:drawablePadding="16dp"
         android:hint="Some other location"
         android:paddingStart="16dp"
+
         android:paddingLeft="12dp"
         android:focusedByDefault="false"
         android:paddingEnd="12dp"
@@ -73,7 +75,7 @@
 
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/demopik_one">
+        android:src="@drawable/serveondoor_downpik">
 
     </ImageView>
 
